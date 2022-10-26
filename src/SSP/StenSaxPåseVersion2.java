@@ -34,7 +34,7 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
         playPanel.setLayout(new GridLayout(1, 5));
         buttonPanelDu.setLayout(new GridLayout(5, 1));
         buttonPanelDatorn.setLayout(new GridLayout(5, 1));
-
+//This is the comment of anotherColor-branch
         emptyColumn3.setLayout(new GridLayout(5,2));
         emptyColumn3.add(nyttSpel);
 
