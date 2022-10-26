@@ -35,6 +35,10 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
         buttonPanelDu.setLayout(new GridLayout(5, 1));
         buttonPanelDatorn.setLayout(new GridLayout(5, 1));
 //Here's a comment for git demo
+        //
+        //a few more lines
+        //
+        //
         emptyColumn3.setLayout(new GridLayout(5,2));
         emptyColumn3.add(nyttSpel);
 
