@@ -1,4 +1,4 @@
-package sprint3.test.u5;
+package SSP;
 
 import javax.swing.*;
 import java.awt.*;
