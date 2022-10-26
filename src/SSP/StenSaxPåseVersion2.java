@@ -53,9 +53,9 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
         buttonPanelDatorn.add(påseButtonDatorn);
         buttonPanelDatorn.add(datornsPoäng);
         playPanel.setSize(1000, 120);
-        stenButton.setBackground(new Color(137, 45, 70));
-        påseButton.setBackground(new Color(126, 24, 51));
-        saxButton.setBackground(new Color(218, 46, 92));
+        stenButton.setBackground(new Color(136, 45, 70));
+        påseButton.setBackground(new Color(136, 45, 70));
+        saxButton.setBackground(new Color(136, 45, 70));
         stenButtonDatorn.setBackground(new Color(255, 180, 200));
         påseButtonDatorn.setBackground(new Color(255, 180, 200));
         saxButtonDatorn.setBackground(new Color(255, 180, 200));
