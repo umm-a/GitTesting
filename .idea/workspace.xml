@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a9fb511-3b3d-47b1-b157-907f24626d42" name="Changes" comment="added comment to anotherColor" />
+    <list default="true" id="6a9fb511-3b3d-47b1-b157-907f24626d42" name="Changes" comment="added comment to anotherColor">
+      <change beforePath="$PROJECT_DIR$/src/SSP/StenSaxPåseVersion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SSP/StenSaxPåseVersion2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
