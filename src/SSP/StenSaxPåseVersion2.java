@@ -1,4 +1,4 @@
-package sprint3.test.u5;
+package SSP;
 
 import javax.swing.*;
 import java.awt.*;
@@ -49,20 +49,20 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
         buttonPanelDatorn.add(påseButtonDatorn);
         buttonPanelDatorn.add(datornsPoäng);
         playPanel.setSize(1000, 120);
-        stenButton.setBackground(new Color(255, 180, 200));
-        påseButton.setBackground(new Color(255, 180, 200));
-        saxButton.setBackground(new Color(255, 180, 200));
-        stenButtonDatorn.setBackground(new Color(255, 180, 200));
-        påseButtonDatorn.setBackground(new Color(255, 180, 200));
-        saxButtonDatorn.setBackground(new Color(255, 180, 200));
+        stenButton.setBackground(new Color(150, 180, 200));
+        påseButton.setBackground(new Color(100, 180, 0));
+        saxButton.setBackground(new Color(100, 180, 0));
+        stenButtonDatorn.setBackground(new Color(100, 180, 200));
+        påseButtonDatorn.setBackground(new Color(100, 180, 200));
+        saxButtonDatorn.setBackground(new Color(100, 180, 200));
 
-        nyttSpel.setBackground(new Color(255,200,200));
-        buttonPanelDu.setBackground(new Color(255, 200, 200));
+        nyttSpel.setBackground(new Color(100,200,200));
+        buttonPanelDu.setBackground(new Color(100, 200, 200));
 
-        buttonPanelDatorn.setBackground(new Color(255, 200,200));
-        emptyColumn1.setBackground(new Color(255, 210,210));
-        emptyColumn2.setBackground(new Color(255, 210, 210));
-        emptyColumn3.setBackground(new Color(255, 210, 210));
+        buttonPanelDatorn.setBackground(new Color(100, 200,200));
+        emptyColumn1.setBackground(new Color(100, 210,210));
+        emptyColumn2.setBackground(new Color(100, 210, 210));
+        emptyColumn3.setBackground(new Color(100, 210, 210));
 
         playPanel.add(emptyColumn1);
         playPanel.add(buttonPanelDu);
@@ -90,17 +90,17 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==stenButton){
-            stenButton.setBackground(new Color(255, 123 ,123));
+            stenButton.setBackground(new Color(100, 123 ,123));
             vemFårPoäng(0);
             saxButton.setBackground(new Color(255, 255,255));
             påseButton.setBackground(new Color(255, 255,255));
         } else if (e.getSource()==saxButton) {
-            saxButton.setBackground(new Color(255, 123 ,123));
+            saxButton.setBackground(new Color(100, 123 ,123));
             stenButton.setBackground(new Color(255, 255,255));
             påseButton.setBackground(new Color(255, 255,255));
             vemFårPoäng(1);
         } else if (e.getSource()==påseButton) {
-            påseButton.setBackground(new Color(255, 123 ,123));
+            påseButton.setBackground(new Color(100, 123 ,123));
             stenButton.setBackground(new Color(255, 255,255));
             saxButton.setBackground(new Color(255, 255,255));
             vemFårPoäng(2);
@@ -126,7 +126,7 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
         System.out.println(datornsVal);
 
         if(datornsVal==0){
-            stenButtonDatorn.setBackground(new Color(255, 120, 200));
+            stenButtonDatorn.setBackground(new Color(100, 120, 200));
             saxButtonDatorn.setBackground(new Color(255, 255, 255));
             påseButtonDatorn.setBackground(new Color(255, 255, 255));
             if(stenSaxEllerPåse==1){
@@ -135,7 +135,7 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
                 duFårPoäng=true;
             }
         }else if(datornsVal==1){
-            saxButtonDatorn.setBackground(new Color(255, 120, 200));
+            saxButtonDatorn.setBackground(new Color(100, 120, 200));
             stenButtonDatorn.setBackground(new Color(255, 255, 255));
             påseButtonDatorn.setBackground(new Color(255, 255, 255));
             if(stenSaxEllerPåse==0){
@@ -144,7 +144,7 @@ public class StenSaxPåseVersion2 extends JFrame implements ActionListener {
                 datornFårPoäng=true;
             }
         }else if(datornsVal==2){
-            påseButtonDatorn.setBackground(new Color(255, 120, 200));
+            påseButtonDatorn.setBackground(new Color(100, 120, 200));
             stenButtonDatorn.setBackground(new Color(255, 255, 255));
             saxButtonDatorn.setBackground(new Color(255, 255, 255));
             if(stenSaxEllerPåse==0){
